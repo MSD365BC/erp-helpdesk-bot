@@ -20,7 +20,7 @@ from app.handlers.admin_handler import (
 )
 
 def run_bot():
-    app = ApplicationBuilder().token(BOT_TOKEN).build()
+    app = ApplicationBuilder().token(8893526417:AAHHnTRuYl78vkLY5MdVsdQzkmSZooubN0E).build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("admin", admin_menu))
